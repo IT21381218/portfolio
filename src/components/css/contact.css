@@ -96,9 +96,6 @@
 .contact-form form .send:hover{
     box-shadow:0 0 5px cyan,
     0px 0px 25px cyan,0px 0px 50px cyan;
-
-
-
 }
 
 @keyframes slideTop {
