@@ -1,0 +1,99 @@
+.skills{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    padding: 0 10%;
+}
+
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(210px,1fr));
+    margin-top: 0px;
+    
+}
+
+.skill-list div{
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5, transform 0.5s;
+    box-shadow: 1px 1px 20px #0099ff
+
+}
+
+
+
+.skill-list div h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+.skill-list div:hover{
+    transform: translateY(-10px);
+}
+
+
+.skill-head{
+    animation: slideTop 1s ease forwards;
+}
+
+@keyframes slideTop{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.skill-head h1{
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.skill-head h1{
+    font-size: 50px;
+}
+
+.skill-head span{
+    color: aqua;
+}
+
+.skill-head h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ededed;
+    line-height: 1.5;
+    margin: 15px 0 30px;
+}
+
+.skill-list{
+    animation: slideRight 1s ease forwards;
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
