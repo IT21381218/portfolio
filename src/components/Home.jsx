@@ -9,6 +9,7 @@ import Skill from './skill';
 import Projects from './Projects';
 import Contact from './Contact';
 import Followme from './Followme';
+import Tittle from './Tittle';
 
 
 
@@ -16,6 +17,7 @@ import Followme from './Followme';
 export default function Home() {
     return(
         <div>
+            <Tittle/>
             <Navbar/>
             <div>
                 <section className="home">
